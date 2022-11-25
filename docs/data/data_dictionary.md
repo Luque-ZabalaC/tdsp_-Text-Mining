@@ -15,7 +15,7 @@ A continuación se presenta la descripción de las ocho tablas que conforman la 
 olist_orders_dataset: tabla que permite la conexión con las tablas que contienen la información de pagos, reseñas, cliente y artículos. Contiene detalles relacionados con el pedido.
 
 
-| column | type | description |
+| columna | tipo | descripción |
 | --- | --- | --- |
 | order_id | varchar | e481f51cbdc54678b7cc49136f2d6af7 |
 | customer_id | varchar | 9ef432eb6251297304e76186b10a928d |
@@ -27,23 +27,37 @@ olist_orders_dataset: tabla que permite la conexión con las tablas que contiene
 | order_estimated_delivery_date | date | 18/10/2017  12:00:00 a. m. |
 
 
-
-
-
-## Table 2
+## Tabla 2
 
 olist_order_items_datase: contiene los detalles del artículo de compra, fecha de envío, el precio, entre otros.
 
-
-Here you must describe the table
-
-| column | type | description |
+| columna | tipo | descripción |
 | --- | --- | --- |
-| col1 | INT | Example column |
+| order_id | varchar | e481f51cbdc54678b7cc49136f2d6af7 |
+| order_item_id | int | 1 |
+| product_id | varchar | 4244733e06e7ecb4970a6e2683c13e61 |
+| seller_id | varchar | 48436dade18ac8b2bce089ec2a041202 |
+| shipping_limit_date | varchar | 19/09/2017  9:45:35 a. m. |
+| price | float |5890|
+| freight_value | float | 1329 |
 
-## Table 3
+						
+## Tabla 3
 
 olist_order_reviews_dataset: contiene detalles de las reseñas publicadas por el cliente sobre un producto comprado.
+
+| columna | tipo | descripción |
+| --- | --- | --- |
+| order_id | varchar | 7bc2406110b926393aa56f80a40eba40 |
+| review_id | varchar | 73fc7af87114b39712e6da79b0a377eb |
+| review_score |int | 4 |
+| review_comment_title | varchar |  |
+| review_comment_message | varchar | Recebi bem antes do prazo estipulado |
+| review_creation_date | varchar | 2018-01-18 00:00:00 |
+| review_answer_timestamp | varchar | 2018-01-18 21:46:59 |
+
+
+
 
 ## Table 4
 olist_products_dataset: contiene detalles de identificación del producto como el ID, categoría y medidas.
