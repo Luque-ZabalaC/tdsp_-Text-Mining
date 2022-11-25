@@ -57,10 +57,21 @@ olist_order_reviews_dataset: contiene detalles de las reseñas publicadas por el
 | review_answer_timestamp | varchar | 2018-01-18 21:46:59 |
 
 
-
-
 ## Table 4
 olist_products_dataset: contiene detalles de identificación del producto como el ID, categoría y medidas.
+
+| columna | tipo | descripción |
+| --- | --- | --- |
+| product_id | varchar | 7bc2406110b926393aa56f80a40eba40 |
+| product_category_name | varchar | perfumaria	 |
+| product_name_lenght |float | 40.0 |
+| product_description_lenght | float | 287.0	 |
+| product_photos_qty | float | 1.0 |
+| product_weight_g | float | 225.0	 |
+| product_length_cm | float | 16.0 |
+| product_height_cm | float | 10.0 |
+| product_width_cm | float | 14.0 |
+
 
 ## Table 5
 olist_order_payments_dataset: contiene los detalles de pago de cada pedido.
