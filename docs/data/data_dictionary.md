@@ -8,24 +8,12 @@ El diagrama entidad relación de la base de datos se visualiza en la siguiente f
 
 ![image](https://user-images.githubusercontent.com/99290509/204058226-bf15dd88-cf14-440d-ba0e-3bacaefa5c0c.png)
 
+A continuación se presenta la descripción de las ocho tablas que conforman la base de datos:
 
-
-olist_orders_dataset: tabla que permite la conexión con otras 4 tablas. Contiene detalles relacionados con el pedido.
-olist_order_items_datase: contiene los detalles del artículo de compra, fecha de envío, el precio, entre otros.
-olist_order_reviews_dataset: contiene detalles de las reseñas publicadas por el cliente sobre un producto comprado.
-olist_products_dataset: contiene detalles de identificación del producto como el ID, categoría y medidas.
-olist_order_payments_dataset: contiene los detalles de pago de cada pedido.
-olist_customers_dataset: contiene la información de la base de clientes de la firma.
-olist_geolocation_dataset: contiene información geográfica de los vendedores y los clientes.
-olist_sellers_dataset: contiene información relacionada con los vendedores registrados con la firma.
-
-# Database Name 1
-
-Description of the database.
-
-![UML Diagram](/file/uml/database1)
 
 ## Table 1
+
+olist_orders_dataset: tabla que permite la conexión con otras 4 tablas. Contiene detalles relacionados con el pedido.
 
 Here you must describe the table
 
@@ -35,9 +23,8 @@ Here you must describe the table
 
 # Database Name 2
 
-Description of the database.
+olist_order_items_datase: contiene los detalles del artículo de compra, fecha de envío, el precio, entre otros.
 
-![UML Diagram](/file/uml/database1)
 
 ## Table 2
 
@@ -46,3 +33,11 @@ Here you must describe the table
 | column | type | description |
 | --- | --- | --- |
 | col1 | INT | Example column |
+
+
+olist_order_reviews_dataset: contiene detalles de las reseñas publicadas por el cliente sobre un producto comprado.
+olist_products_dataset: contiene detalles de identificación del producto como el ID, categoría y medidas.
+olist_order_payments_dataset: contiene los detalles de pago de cada pedido.
+olist_customers_dataset: contiene la información de la base de clientes de la firma.
+olist_geolocation_dataset: contiene información geográfica de los vendedores y los clientes.
+olist_sellers_dataset: contiene información relacionada con los vendedores registrados con la firma.
