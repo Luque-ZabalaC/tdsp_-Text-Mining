@@ -29,13 +29,15 @@ Falta
 
 ## Personnel
 * Who are on this project:
-	* Microsoft:
+	* Microsoft: 
 		* Project lead
+		Maira Alejandra Garcia 
 		* PM
 		* Data scientist(s)
 		* Account manager
-	* Client:
+	* Client: Multinacional 
 		* Data administrator
+		
 		* Business contact
 	
 ## Metrics
