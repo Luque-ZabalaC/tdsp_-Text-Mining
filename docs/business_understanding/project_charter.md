@@ -33,14 +33,26 @@ Falta
 		* Project lead
 		
 		Maira Alejandra Garcia 
-		* PM
+		* Project Management
+                
+		Carolina Luque                
 		* Data scientist(s)
+		
+		Maira Alejandra Garcia
+		Carolina Luque
 		* Account manager
+		
+		Maira alejandra Garcia 
+		
+		
 	* Client: Multinacional 
 		* Data administrator
 		
 		Olist Store https://olist.com/pt-br/
+		
 		* Business contact
+		
+		Director de proyectos de analítca de la Multinacional 
 	
 ## Metrics
 * What are the qualitative objectives? (e.g. reduce user churn)
