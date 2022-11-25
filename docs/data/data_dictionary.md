@@ -10,17 +10,23 @@ El diagrama entidad relación de la base de datos se visualiza en la siguiente f
 
 A continuación se presenta la descripción de las ocho tablas que conforman la base de datos:
 
-## Table 1
+## Tabla 1
 
 olist_orders_dataset: tabla que permite la conexión con las tablas que contienen la información de pagos, reseñas, cliente y artículos. Contiene detalles relacionados con el pedido.
 
 
 | column | type | description |
 | --- | --- | --- |
-| order_id | INT | Example column |
-| customer_id | INT | Example column |
-| order_status | INT | Example column |
-| order_purchase_timestamp | INT | Example column |
+| order_id | varchar | e481f51cbdc54678b7cc49136f2d6af7 |
+| customer_id | varchar | 9ef432eb6251297304e76186b10a928d |
+| order_status | varchar | delivered |
+| order_purchase_timestamp | date | 2/10/2017  10:56:33 a. m. |
+| order_approved_at | date |2/10/2017  11:07:15 a. m. |
+| order_delivered_carrier_date | date | 4/10/2017  7:55:00 p. m. |
+| order_delivered_customer_date | date |10/10/2017  9:25:13 p. m. |
+| order_estimated_delivery_date | date | 18/10/2017  12:00:00 a. m. |
+
+
 
 
 
