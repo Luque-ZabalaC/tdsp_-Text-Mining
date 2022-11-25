@@ -21,7 +21,9 @@ Buscamos aplicar técnicas de visualización de datos, métodos de agrupamiento 
 
 * What will we do?
 
-Falta
+Identificar productos con críticas negativas y dar mayor visilibilidad a los productos más populares entre los clientes
+
+Dentro de la información se presenta la clasificación del producto con estrellas de 1 a 5, esto permite convertir esta variable en un problema de clasificación binaria tratando las calificaciones de 4 y 5 estrellas como la clase positiva y el resto como la clase negativa.
 
 * How is it going to be consumed by the customer?
 
@@ -57,6 +59,8 @@ Falta
 ## Metrics
 * What are the qualitative objectives? (e.g. reduce user churn)
 * What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
+Las matrices de confusión se utilizan para obtener una idea del tipo de errores que comete el modelo. Se requiere precisión para reducir el número de falsos positivos y se necesita recordar para reducir el número de falsos negativos. Esta es la razón por la que utilizaremos la puntuación macro F1 como métrica.
+
 * Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
 * What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
 * How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
