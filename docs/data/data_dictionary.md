@@ -4,6 +4,9 @@ In this document you must describe the tables, collections or files that you are
 
 ![image](https://user-images.githubusercontent.com/99290509/204057899-2d0a83aa-4858-44bb-9e4b-f3f02ace49c7.png)
 
+![image](https://user-images.githubusercontent.com/99290509/204058065-bfef32df-afc3-4803-802f-3aee55b82b22.png)
+
+
 
 olist_orders_dataset: tabla que permite la conexión con otras 4 tablas. Contiene detalles relacionados con el pedido.
 olist_order_items_datase: contiene los detalles del artículo de compra, fecha de envío, el precio, entre otros.
