@@ -10,34 +10,46 @@ El diagrama entidad relación de la base de datos se visualiza en la siguiente f
 
 A continuación se presenta la descripción de las ocho tablas que conforman la base de datos:
 
-
 ## Table 1
 
-olist_orders_dataset: tabla que permite la conexión con otras 4 tablas. Contiene detalles relacionados con el pedido.
+olist_orders_dataset: tabla que permite la conexión con las tablas que contienen la información de pagos, reseñas, cliente y artículos. Contiene detalles relacionados con el pedido.
 
-Here you must describe the table
 
 | column | type | description |
 | --- | --- | --- |
-| col1 | INT | Example column |
+| order_id | INT | Example column |
+| customer_id | INT | Example column |
+| order_status | INT | Example column |
+| order_purchase_timestamp | INT | Example column |
 
-# Database Name 2
-
-olist_order_items_datase: contiene los detalles del artículo de compra, fecha de envío, el precio, entre otros.
 
 
 ## Table 2
 
+olist_order_items_datase: contiene los detalles del artículo de compra, fecha de envío, el precio, entre otros.
+
+
 Here you must describe the table
 
 | column | type | description |
 | --- | --- | --- |
 | col1 | INT | Example column |
 
+## Table 3
 
 olist_order_reviews_dataset: contiene detalles de las reseñas publicadas por el cliente sobre un producto comprado.
+
+## Table 4
 olist_products_dataset: contiene detalles de identificación del producto como el ID, categoría y medidas.
+
+## Table 5
 olist_order_payments_dataset: contiene los detalles de pago de cada pedido.
+
+## Table 6
 olist_customers_dataset: contiene la información de la base de clientes de la firma.
+
+## Table 7
 olist_geolocation_dataset: contiene información geográfica de los vendedores y los clientes.
+
+## Table 8
 olist_sellers_dataset: contiene información relacionada con los vendedores registrados con la firma.
