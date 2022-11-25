@@ -21,13 +21,12 @@ Buscamos aplicar técnicas de visualización de datos, métodos de agrupamiento 
 
 * What will we do?
 
-Identificar productos con críticas negativas y dar mayor visilibilidad a los productos más populares entre los clientes
+Vamos estructurar una metodología de ciencia de datos para desarrollar y ejecutar el proyecto. Por otro lado, utilizaremos los datos proporcionados por Olist Store (https://olist.com/pt-br/) para hacer las difernetes implementaciones.  Haremos uso de herramientas de ciencia de datos para hacer una exploración, visualización, preprocesamiento, extracción de características, modelado y evaluación de desempeño de las soluciones propuestas. 
 
-Dentro de la información se presenta la clasificación del producto con estrellas de 1 a 5, esto permite convertir esta variable en un problema de clasificación binaria tratando las calificaciones de 4 y 5 estrellas como la clase positiva y el resto como la clase negativa.
 
 * How is it going to be consumed by the customer?
 
-Falta
+El servicio va ser consumido por el cliente a través de un dashboard diseñado en Power BI.
 
 ## Personnel
 * Who are on this project:
@@ -57,7 +56,15 @@ Falta
 		Director de proyectos de analítca de la Multinacional 
 	
 ## Metrics
+
+Identificar productos con críticas negativas y dar mayor visilibilidad a los productos más populares entre los clientes
+
+Dentro de la información se presenta la clasificación del producto con estrellas de 1 a 5, esto permite convertir esta variable en un problema de clasificación binaria tratando las calificaciones de 4 y 5 estrellas como la clase positiva y el resto como la clase negativa.
+
 * What are the qualitative objectives? (e.g. reduce user churn)
+
+ *
+
 * What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
 Las matrices de confusión se utilizan para obtener una idea del tipo de errores que comete el modelo. Se requiere precisión para reducir el número de falsos positivos y se necesita recordar para reducir el número de falsos negativos. Esta es la razón por la que utilizaremos la puntuación macro F1 como métrica.
 
