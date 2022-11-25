@@ -2,10 +2,14 @@
 
 ## Business background
 
-CAROLINA LUQUE
-MAIRA GARCÍA
-
 * Who is the client, what business domain the client is in.
+
+El E-Commerce es actualmente uno de los canales de venta y compra preferidos por los usuarios. Es una alternativa que promete dejar atrás los sistemas tradicionales de comercio. Las empresas de comercio electrónico están constantemente en la búsqueda de estrategias que les permitan posicionar sus marcas, atraer más clientes y mejorar el rendimiento del negocio. Es en ese escenario, donde los proyectos de ciencia datos se convierten en una vía para conocer los usuarios, entender sus necesidades y condiciones, y complacer sus demandas. 
+
+El comercio electrónico genera una gran cantidad de datos que son un activo para soportar la toma de decisiones dentro de una organización. Entre más conocimiento se tenga de lo que dicen y hacen los consumidores mayor proyección tendrá el negocio. Para ello es importante saber administrar los datos y extraer información de los mismos en pro de enriquecer la experiencia de los clientes. 
+
+Este proyecto se enmarca en el sector de comercio electrónico y tiene como objetivo caracterizar los patrones de compra de los consumidores en Brasil. Nuestro cliente es una multinacional de E-commerce reconocida en Europa y que actualmente está interesada en posicionar su negocio en Latinoamérica, particularmente quiere iniciar su despliegue en Brasil.  
+
 * What business problems are we trying to address?
 
 ## Scope
