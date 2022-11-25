@@ -13,6 +13,7 @@ Los datos estan anonimizados. La denominación de las empresas y socios se han r
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|------------|
 | archive.zip           | Los datos se descargan manualmente, como archivo zip, con la opción "download" de la página de Kaggle (https://acortar.link/b20WXx), ingresando con usuario registrado.  | Los datos se cargan en   GoogleDrive (). Luego, el archivo zip se descarga y descomprime en la ruta   temporal de GoogleColab: /tmp/archive/ | [descarga_file.py](https://github.com/margomeza16/mlds6_proyecto/blob/master/docs/data/descarga_file.py)                    | [Dataset 2 Report](https://github.com/margomeza16/mlds6_proyecto/blob/master/docs/data/data_dictionary.md)       |
 
+El **archive.zip** contine los siguientes conjuntos de datos: 
 
 * **olist_orders_dataset**: tabla que permite la conexión con otras 4 tablas. Contiene detalles relacionados con el pedido. 
 * **olist_order_items_datase**: contiene los detalles del artículo de compra, fecha de envío, el precio, entre otros.
