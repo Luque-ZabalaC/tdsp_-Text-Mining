@@ -21,7 +21,7 @@ Buscamos aplicar técnicas de visualización de datos, métodos de agrupamiento 
 
 * What will we do?
 
-Vamos estructurar una metodología de ciencia de datos para desarrollar y ejecutar el proyecto. Por otro lado, utilizaremos los datos proporcionados por Olist Store (https://olist.com/pt-br/) para hacer las difernetes implementaciones.  Haremos uso de herramientas de ciencia de datos para hacer una exploración, visualización, preprocesamiento, extracción de características, modelado y evaluación de desempeño de las soluciones propuestas. 
+Vamos estructurar una metodología de ciencia de datos para desarrollar y ejecutar el proyecto. Utilizaremos los datos proporcionados por Olist Store (https://olist.com/pt-br/) para hacer las diferentes implementaciones.  Haremos uso de herramientas de ciencia de datos para hacer una exploración, visualización, preprocesamiento, extracción de características, modelado y evaluación de desempeño de las soluciones propuestas. 
 
 
 * How is it going to be consumed by the customer?
