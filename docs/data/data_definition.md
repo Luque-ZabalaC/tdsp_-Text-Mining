@@ -8,16 +8,83 @@ Los datos estan anonimizados. La denominación de las empresas y socios se han r
 
 ## Fuentes de datos sin procesar.
 
-| **Conjunto de datos**        | **Ubicación original **                                                                                                                         | **Ubicación de destino **                                                                                                                    | **Herramientas/Scripts ** | **Enlace** |
-|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|------------|
-| olist_orders_dataset         | Los datos se descargan manualmente, como archivo zip, con la opción "download" de la   página de Kaggle (), ingresando con usuario registrado.  | Los datos se cargan en   GoogleDrive (). Luego, el archivo zip se descarga y descomprime en la ruta   temporal de GoogleColab: /tmp/archive/ |                           |            |
-| olist_order_items_dataset                                                                                                                                                     |                                                                                                                                              |                           |            |
-| olist_order_reviews_dataset                                                                                                                                                   |                                                                                                                                              |                           |            |
-| olist_products_dataset                                                                                                                                                        |                                                                                                                                              |                           |            |
-| olist_order_payments_dataset                                                                                                                                                  |                                                                                                                                              |                           |            |
-| olist_customers_dataset                                                                                                                                                       |                                                                                                                                              |                           |            |
-| olist_geolocation_dataset                                                                                                                                                     |                                                                                                                                              |                           |            |
-| olist_sellers_dataset                                                                                                                                                         |                                                                                                                                              |                           |            |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"><span style="font-weight:bold">**Conjunto de datos**</span></th>
+    <th class="tg-0pky">*<span style="font-style:italic">*Ubicación original **</span></th>
+    <th class="tg-0pky">*<span style="font-style:italic">*Ubicación de destino **</span></th>
+    <th class="tg-0pky">*<span style="font-style:italic">*Herramientas/Scripts**</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">**Enlace**</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">olist_orders_dataset</td>
+    <td class="tg-0pky">Los datos se descargan manualmente, como archivo zip, con la opción "download" de la   página de Kaggle (), ingresando con usuario registrado. </td>
+    <td class="tg-0pky">Los datos se cargan en&nbsp;&nbsp;&nbsp;GoogleDrive (). Luego, el archivo zip se descarga y descomprime en la ruta&nbsp;&nbsp;&nbsp;temporal de GoogleColab: /tmp/archive/</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">olist_order_items_dataset</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">olist_order_reviews_dataset</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">olist_products_dataset</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">olist_order_payments_dataset</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">olist_customers_dataset</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">olist_geolocation_dataset</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">olist_sellers_dataset</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
 
 
 | Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
