@@ -13,8 +13,14 @@ Los datos estan anonimizados. La denominación de las empresas y socios se han r
 | Dataset 1 | Brief description of its orignal location | Brief description of its destination location | [script1.py](link/to/python/script/file/in/Code) | [Dataset 1 Report](link/to/report1)|
 | Dataset 2 | Brief description of its orignal location | Brief description of its destination location | [script2.R](link/to/R/script/file/in/Code) | [Dataset 2 Report](link/to/report2)|
 
-* Dataset1 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset1 Report.>
-* Dataset2 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset2 Report.> 
+* **olist_orders_dataset**: tabla que permite la conexión con otras 4 tablas. Contiene detalles relacionados con el pedido. 
+* **olist_order_items_datase**: contiene los detalles del artículo de compra, fecha de envío, el precio, entre otros.
+* **olist_order_reviews_dataset**: contiene detalles de las reseñas publicadas por el cliente sobre un producto comprado.
+* **olist_products_dataset**: contiene detalles de identificación del producto como el ID, categoría y medidas.
+* **olist_order_payments_dataset**: contiene los detalles de pago de cada pedido.
+* **olist_customers_dataset**: contiene la información de la base de clientes de la firma.
+* **olist_geolocation_dataset**: contiene información geográfica de los vendedores y los clientes.
+* **olist_sellers_dataset**: contiene información relacionada con los vendedores registrados con la firma.
 
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
