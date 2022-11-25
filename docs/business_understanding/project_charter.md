@@ -16,8 +16,16 @@ Somos una empresa consultora que ha sido contratada por esta multinacional para 
 
 ## Scope
 * What data science solutions are we trying to build?
+
+Buscamos aplicar técnicas de visualización de datos, métodos de agrupamiento y procesamiento de lenguaje natural para hacer una caracterización amplia del comportamiento de compra en línea de los brasileños.  
+
 * What will we do?
+
+Falta
+
 * How is it going to be consumed by the customer?
+
+Falta
 
 ## Personnel
 * Who are on this project:
