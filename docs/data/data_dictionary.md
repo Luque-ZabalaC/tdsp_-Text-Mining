@@ -57,7 +57,7 @@ olist_order_reviews_dataset: contiene detalles de las reseñas publicadas por el
 | review_answer_timestamp | varchar | 2018-01-18 21:46:59 |
 
 
-## Table 4
+## Tabla 4
 olist_products_dataset: contiene detalles de identificación del producto como el ID, categoría y medidas.
 
 | columna | tipo | descripción |
@@ -73,14 +73,49 @@ olist_products_dataset: contiene detalles de identificación del producto como e
 | product_width_cm | float | 14.0 |
 
 
-## Table 5
+## Tabla 5
 olist_order_payments_dataset: contiene los detalles de pago de cada pedido.
 
-## Table 6
+| columna | tipo | descripción |
+| --- | --- | --- |
+| order_id | varchar | 81ef226f3fe1789b1e8b2acac839d17	 |
+| payment_sequential | int | 1 |
+| payment_type | varchar | credit_card	 |
+| payment_installments | int | 8 |
+| payment_value | float | 99.33 |
+
+
+## Tabla 6
 olist_customers_dataset: contiene la información de la base de clientes de la firma.
 
-## Table 7
+| columna | tipo | descripción |
+| --- | --- | --- |
+| customer_id | varchar |06b8999e2fba1a1fbc88172c00ba8bc7	 |
+| customer_unique_id | varchar | 81ef226f3fe1789b1e8b2acac839d17	 |
+| customer_zip_code_prefix | int | 14409	 |
+| customer_city | varchar | franca	 |
+| customer_stat | varchar | SP	 |
+
+## Tabla 7
 olist_geolocation_dataset: contiene información geográfica de los vendedores y los clientes.
 
-## Table 8
+| columna | tipo | descripción |
+| --- | --- | --- |
+| geolocation_zip_code_prefix | int |01037	 |
+| geolocation_lat | float |-23.54562128115268	 |
+| geolocation_lng | float |-46.63929204800168	 |
+| geolocation_city | varchar |sao paulo	 |
+| geolocation_state | varchar |SP	 |
+
+
+## Tabla 8
 olist_sellers_dataset: contiene información relacionada con los vendedores registrados con la firma.
+
+| columna | tipo | descripción |
+| --- | --- | --- |
+| seller_id | varchar |3442f8959a84dea7ee197c632cb2df15	 |
+| seller_zip_code_prefix | int |13023	 |
+| seller_city | varchar |campinas	 |
+| seller_state | varchar |SP	 |
+
+
