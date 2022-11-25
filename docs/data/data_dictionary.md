@@ -4,7 +4,7 @@ In this document you must describe the tables, collections or files that you are
 
 ![image](https://user-images.githubusercontent.com/99290509/204057899-2d0a83aa-4858-44bb-9e4b-f3f02ace49c7.png)
 
-![image](https://user-images.githubusercontent.com/99290509/204058065-bfef32df-afc3-4803-802f-3aee55b82b22.png)
+![image](https://user-images.githubusercontent.com/99290509/204058226-bf15dd88-cf14-440d-ba0e-3bacaefa5c0c.png)
 
 
 
