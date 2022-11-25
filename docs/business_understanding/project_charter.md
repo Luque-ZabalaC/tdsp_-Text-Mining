@@ -31,6 +31,7 @@ Falta
 * Who are on this project:
 	* Microsoft: 
 		* Project lead
+		
 		Maira Alejandra Garcia 
 		* PM
 		* Data scientist(s)
@@ -38,6 +39,7 @@ Falta
 	* Client: Multinacional 
 		* Data administrator
 		
+		Olist Store https://olist.com/pt-br/
 		* Business contact
 	
 ## Metrics
