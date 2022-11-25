@@ -12,6 +12,8 @@ Este proyecto se enmarca en el sector de comercio electrónico y tiene como obje
 
 * What business problems are we trying to address?
 
+Somos una empresa consultora que ha sido contratada por esta multinacional para caracterizar los patrones de compra en línea de los consumidores en Brasil. Nuestro objetivo es proporcionar evidencia empírica que le permita a la organización ofrecer experiencias de usuario personalizada en la región, así como diseñar estrategias de atención al cliente y de logística eficaces y adecuadas para los nuevos clientes. 
+
 ## Scope
 * What data science solutions are we trying to build?
 * What will we do?
