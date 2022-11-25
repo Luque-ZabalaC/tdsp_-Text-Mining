@@ -17,7 +17,7 @@ Somos una empresa consultora que ha sido contratada por esta multinacional para 
 ## Scope
 * What data science solutions are we trying to build?
 
-Buscamos aplicar técnicas de visualización de datos, métodos de agrupamiento y procesamiento de lenguaje natural para hacer una caracterización amplia del comportamiento de compra en línea de los brasileños.  
+Buscamos aplicar técnicas de visualización de datos, métodos de agrupamiento y procesamiento de lenguaje natural para hacer una caracterización amplia del comportamiento de compra en línea de los brasileños, con el objetivo de generar estrategias de marketing focalizadas en las preferencias del comprador. 
 
 * What will we do?
 
