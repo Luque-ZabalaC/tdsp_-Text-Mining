@@ -1,8 +1,10 @@
 # Data Dictionary
 
-In this document you must describe the tables, collections or files that you are using in the project. You can describe each database and provide UML diagrams for a better design description.
+La información está contenida en 8 tablas, las cuales se encuentran relacionadas tal como se puede apreciar en el siguiente esquema de la base de datos. 
 
 ![image](https://user-images.githubusercontent.com/99290509/204057899-2d0a83aa-4858-44bb-9e4b-f3f02ace49c7.png)
+
+El diagrama entidad relación de la base de datos se visualiza en la siguiente figura, en la cual se pueden identificar las entidades de la base de datos, las relaciones entre ellas, las claves de cada entidad y cada una de sus campos.  
 
 ![image](https://user-images.githubusercontent.com/99290509/204058226-bf15dd88-cf14-440d-ba0e-3bacaefa5c0c.png)
 
