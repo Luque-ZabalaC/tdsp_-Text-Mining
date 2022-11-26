@@ -10,7 +10,7 @@ El comercio electrónico genera una gran cantidad de datos que son un activo par
 
 Este proyecto se enmarca en el sector de comercio electrónico y tiene como objetivo caracterizar los patrones de compra de los consumidores en Brasil. Nuestro cliente es una multinacional de E-commerce reconocida en Europa y que actualmente está interesada en posicionar su negocio en Latinoamérica, particularmente quiere iniciar su despliegue en Brasil.  
 
-![image](https://user-images.githubusercontent.com/99290509/204110760-01fcbfd1-63ca-4163-b8f9-ea21f6dfa17e.png)
+![Captura8](https://user-images.githubusercontent.com/99290509/204110775-491696cd-bc41-4856-b237-610a60d9f428.PNG)
 
 
 * What business problems are we trying to address?
