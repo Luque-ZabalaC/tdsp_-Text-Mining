@@ -88,7 +88,7 @@ El desempeño que tenga el modelo para realizar la predicción de la valoración
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
 
-* El proyecto iniciará el 2 de noviembre y finalizará el 9 de diciembre, tiempo durante el cual se realizarán las actividades relacionadas con el entendimiento del negocio, de los datos, preprocesamiento de los datos, modelado, comparación de modelos y despliegue. En la siguiente figura se puede visualizar el cronograma y el diagrama de gantt del proyecto. 
+El proyecto iniciará el 2 de noviembre y finalizará el 9 de diciembre, tiempo durante el cual se realizarán las actividades relacionadas con el entendimiento del negocio, de los datos, preprocesamiento de los datos, modelado, comparación de modelos y despliegue. En la siguiente figura se puede visualizar el cronograma y el diagrama de gantt del proyecto. 
 
 ![image](https://user-images.githubusercontent.com/99290509/204110831-ec4bf104-4353-4799-91dd-f3b3bd367b6a.png)
 
@@ -97,23 +97,19 @@ El desempeño que tenga el modelo para realizar la predicción de la valoración
 * Data
   * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
 
-El conjunto de datos completo corresponde a 8 tablas en formato de archivo de valores separado por comas (cvs). El archivo zip con estas tablas esta disponible en   la siguiente ruta: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download
+El conjunto de datos completo corresponde a 9 tablas en formato de archivo de valores separado por comas (cvs). El archivo zip con estas tablas esta disponible en   la siguiente ruta: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download
 
-* Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
-  * all the data, 
-  * after some pre-aggregation on-prem,
-  * Sampled data enough for modeling 
-
-El conjunto de datos se almacena en google drive. Luego se descarga y descomprime en Google Colab. Utilizamos comandos de Linux y python para el manejo de archivos comprimidos y lectura de archivos de varlores separados por comas. Para más detalles ver [descarga_file.ipynb](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/docs/data/descarga_file.ipynb)
+El conjunto de datos se almacena en google drive. Luego se descarga y descomprime en Google Colab. Utilizamos comandos de Linux y python para el manejo de archivos comprimidos y lectura de archivos de valores separados por comas. Para más detalles ver [descarga_file.ipynb](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/docs/data/descarga_file.ipynb)
 
 * What tools and data storage/analytics resources will be used in the solution e.g.,
-  * ASA for stream aggregation
-  * HDI/Hive/R/Python for feature construction, aggregation and sampling
-  * AzureML for modeling and web service operationalization
+  
+Utilizamos Google Drive como entorno para el almacenamiento de datos de la fuente primaria. El almacenamiento de los datos requiere un espacio de 46.2MB. Además, utilizaremos Github para guardar archivos que se generen en el desarollo de la solución. 
+Para el análisis de los datos usamos Python en el ambiente colaborativo de Google (Google Colab). En este entorno de ejecución disponemos de 12.68 GB de RAM, 78.19 GB de Disco y la GPU NVIDIA T4 con la versión del Driver 460.32.03 y CUDA 11.2 respectivamente. El entorno de GPU es recomendable para la eficiencia computacional en la fase de modelamiento.
 
-Utilizamos Google Drive como entrono para el almacenamiento de datos de la fuente primaria. El almacenamiento de los datos requiere un espacio de 46.2MB. Además, utilizaremos Github para guardar archivos que se generen en el desarollo de la solución. 
-Para el análisis de los datos usamos Python en el ambiente colaborativo de Google (Google Colab). En este entorno de ejecución disponemos de 12.68 GB de RAM, 78.19 GB de Disco y la GPU NVIDIA T4 con la versión del Driver 460.32.03 y CUDA 11.2 respectivamente. El entorno de GPU es recomendable parala eficiencia computacional en la fase de modelamiento.
-DEMOS COLOCAR PANTALLAZOS, REVISAR ULTIMOS MINUTOS DE LA ÚLTIMA CLASE.
+DEMOS COLOCAR PANTALLAZOS, REVISAR ULTIMOS MINUTOS DE LA ÚLTIMA CLASE: Está ok está?
+
+![image](https://user-images.githubusercontent.com/99290509/204112575-2fa8e48c-1e32-41ed-8061-43d11ebde394.png)
+
 
 También haremos uso de las siguientes librerias: DESCRIBIRLAS Y DECIR PARA QUE LAS VAMOS A USAR, COLOCAR IMAGENES.
 
