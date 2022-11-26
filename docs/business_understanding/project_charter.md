@@ -78,24 +78,38 @@ Las matrices de confusión se utilizan para obtener una idea del tipo de errores
 ## Architecture
 * Data
   * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
+
+El conjunto de datos completo corresponde a 8 tablas en formato de archivo de valores separado por comas (cvs). El archivo zip con estas tablas esta disponible en   la siguiente ruta: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download
+
 * Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
   * all the data, 
   * after some pre-aggregation on-prem,
   * Sampled data enough for modeling 
 
+El conjunto de datos se almacena en google drive. Luego se descarga y descomprime en Google Colab. Utilizamos comandos de Linux y python para el manejo de archivos comprimidos y lectura de archivos de varlores separados por comas. Para más detalles ver [descarga_file.ipynb](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/docs/data/descarga_file.ipynb)
+
 * What tools and data storage/analytics resources will be used in the solution e.g.,
   * ASA for stream aggregation
   * HDI/Hive/R/Python for feature construction, aggregation and sampling
   * AzureML for modeling and web service operationalization
+
+Utilizamos Google Drive como entrono para el almacenamiento de datos de la fuente primaria. El almacenamiento de los datos requiere un espacio de 46.2MB. Además, utilizaremos Github para guardar archivos que se generen en el desarollo de la solución. 
+Para el análisis de los datos usamos Python en el ambiente colaborativo de Google (Google Colab). En este entorno de ejecución disponemos de 12.68 GB de RAM, 78.19 GB de Disco y la GPU NVIDIA T4 con la versión del Driver 460.32.03 y CUDA 11.2 respectivamente. El entorno de GPU es recomendable parala eficiencia computacional en la fase de modelamiento.
+DEMOS COLOCAR PANTALLAZOS, REVISAR ULTIMOS MINUTOS DE LA ÚLTIMA CLASE.
+
+También haremos uso de las siguientes librerias: DESCRIBIRLAS Y DECIR PARA QUE LAS VAMOS A USAR, COLOCAR IMAGENES.
+
 * How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
   * How will the customer use the model results to make decisions
   * Data movement pipeline in production
   * Make a 1 slide diagram showing the end to end data flow and decision architecture
     * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
+ 
+ FALTA
 
 ## Communication
 * How will we keep in touch? Weekly meetings?
 
-![texto_alternativo](https://d112uwirao0vo9.cloudfront.net/wp-content/uploads/2019/09/Scrum-Method-1024x751.jpg){width=300 height=300}
+	*
 
 * Who are the contact persons on both sides?
