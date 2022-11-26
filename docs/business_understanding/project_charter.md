@@ -96,6 +96,6 @@ Las matrices de confusión se utilizan para obtener una idea del tipo de errores
 ## Communication
 * How will we keep in touch? Weekly meetings?
 
-![texto_alternativo](https://d112uwirao0vo9.cloudfront.net/wp-content/uploads/2019/09/Scrum-Method-1024x751.jpg){width=width height=height}
+![texto_alternativo](https://d112uwirao0vo9.cloudfront.net/wp-content/uploads/2019/09/Scrum-Method-1024x751.jpg){width=300 height=300}
 
 * Who are the contact persons on both sides?
