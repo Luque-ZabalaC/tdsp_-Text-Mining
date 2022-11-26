@@ -88,6 +88,9 @@ El desempeño que tenga el modelo para realizar la predicción de la valoración
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
 
+![image](https://user-images.githubusercontent.com/99290509/204110831-ec4bf104-4353-4799-91dd-f3b3bd367b6a.png)
+
+
 ## Architecture
 * Data
   * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
