@@ -57,19 +57,26 @@ El servicio va ser consumido por el cliente a través de un dashboard diseñado 
 	
 ## Metrics
 
-Identificar productos con críticas negativas y dar mayor visilibilidad a los productos más populares entre los clientes
-
-Dentro de la información se presenta la clasificación del producto con estrellas de 1 a 5, esto permite convertir esta variable en un problema de clasificación binaria tratando las calificaciones de 4 y 5 estrellas como la clase positiva y el resto como la clase negativa.
-
 * What are the qualitative objectives? (e.g. reduce user churn)
 
- *
+Mejorar la percepción de los productos por parte de los clientes de la plataforma ecommerce a través de la caracterización del cliente y las revisiones que realizan a los productos. 
 
 * What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
-Las matrices de confusión se utilizan para obtener una idea del tipo de errores que comete el modelo. Se requiere precisión para reducir el número de falsos positivos y se necesita recordar para reducir el número de falsos negativos. Esta es la razón por la que utilizaremos la puntuación macro F1 como métrica.
+
+Uno de los principales objetivos es la identificación de productos con críticas negativas y positivas para generar estrategias de marketing para estos productos. Dentro de la información de la base de datos cada producto tiene puntaciones de 1 a 5, lo cual permite realizar una clasificación binaria de esta característica y hacer el análisis requerido. 
+
+Se analizarán los comentarios realizados por los revisores y se implementarán modelos empleando diferentes técnicas de machine learning y deep learning comparando el desempeño de cada uno de los modelos. 
+
+Adicionalmente se realizará un análisis de ventas anual para identificar el crecimiento de venta de los productos y los medios de pago utilizados por los clientes. 
 
 * Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
+
+A partir del análisis realizado, se plantearán estrategias para dar mayor visualización a los productos (priorización de visibilidad). Lo que se espera obtener con esta solución es brindarle herramientas al ecommerce para la toma de decisiones relacionada con la venta de sus productos a partir de la reseña de los clientes.
+
 * What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
+
+No se tiene información actual del tiempo que le toma a la multinacional en analizar información y diseñar estrategias. 
+
 * How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
 
 ## Plan
