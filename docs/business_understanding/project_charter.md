@@ -10,6 +10,9 @@ El comercio electrónico genera una gran cantidad de datos que son un activo par
 
 Este proyecto se enmarca en el sector de comercio electrónico y tiene como objetivo caracterizar los patrones de compra de los consumidores en Brasil. Nuestro cliente es una multinacional de E-commerce reconocida en Europa y que actualmente está interesada en posicionar su negocio en Latinoamérica, particularmente quiere iniciar su despliegue en Brasil.  
 
+![image](https://user-images.githubusercontent.com/99290509/204110760-01fcbfd1-63ca-4163-b8f9-ea21f6dfa17e.png)
+
+
 * What business problems are we trying to address?
 
 Somos una empresa consultora que ha sido contratada por esta multinacional para caracterizar los patrones de compra en línea de los consumidores en Brasil. Nuestro objetivo es proporcionar evidencia empírica que le permita a la organización ofrecer experiencias de usuario personalizada en la región, así como diseñar estrategias de atención al cliente y de logística eficaces y adecuadas para los nuevos clientes. 
@@ -75,9 +78,12 @@ A partir del análisis realizado, se plantearán estrategias para dar mayor visu
 
 * What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
 
-No se tiene información actual del tiempo que le toma a la multinacional en analizar información y diseñar estrategias. 
+No se tiene información actual del tiempo que le toma a la multinacional en analizar información y diseñar estrategias. A partir de la implementación de modelos de analítica de datos que permitan predecir la valoración del producto, se pueden establecer las estrategias de visualización y marketing del producto. 
 
 * How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
+
+El desempeño que tenga el modelo para realizar la predicción de la valoración del producto. 
+
 
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
