@@ -29,7 +29,7 @@ Vamos estructurar una metodología de ciencia de datos para desarrollar y ejecut
 
 * How is it going to be consumed by the customer?
 
-El servicio va ser consumido por el cliente a través de un dashboard diseñado en Power BI.
+El servicio va ser consumido por el cliente a través de un dashboard diseñado en Colab.
 
 ## Personnel
 * Who are on this project:
@@ -110,8 +110,9 @@ DEMOS COLOCAR PANTALLAZOS, REVISAR ULTIMOS MINUTOS DE LA ÚLTIMA CLASE: Está ok
 
 ![image](https://user-images.githubusercontent.com/99290509/204112575-2fa8e48c-1e32-41ed-8061-43d11ebde394.png)
 
-
-También haremos uso de las siguientes librerias: DESCRIBIRLAS Y DECIR PARA QUE LAS VAMOS A USAR, COLOCAR IMAGENES.
+También haremos uso de las siguientes técnicas de machine learning y deep learning: 
+- Machine Learning Technique: K Nearest Neighbour, Naive Bayes, Logistic Regression , SVM, Random Forest, gradient Boosting, Decision tree, Model Calibration.
+- Deep Learning Technique: Multi-layered Perceptrons, Convolution Neural Networks, LSTM, Underfitting, Overfitting, Probability, Text Processing, Python syntax and data structures, Keras library, etc.
 
 * How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
   * How will the customer use the model results to make decisions
@@ -123,7 +124,7 @@ También haremos uso de las siguientes librerias: DESCRIBIRLAS Y DECIR PARA QUE 
 
 ## Communication
 * How will we keep in touch? Weekly meetings?
-
-	*
+La comunicación será fluida y constante entre el equipo de trabajo, se usarán la metodología ágil Scrum como base para el desarrollo del proyecto. Se definirán sprint para que los miembros del proyecto se reunan cada semana y analicen los avances del proyecto, entregables, tiempo y presupuestos de ejecución, para resolver cualquier imprevisto sujeto a la ejecución del proyecto. Adicionalmente se contará con un tablero en trello que cuente con listas "Por hacer", "En progreso" y "Hecho" donde se registrarán las actividades con su respectivo responsable y fechas límite no solo para realizar seguimiento al proyecto, si no para registrar todas aquellas dudas o sugerencias que puedan mejorar la comunicación del equipo de trabajo. 
+	
 
 * Who are the contact persons on both sides?
