@@ -88,6 +88,8 @@ El desempeño que tenga el modelo para realizar la predicción de la valoración
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
 
+* El proyecto iniciará el 2 de noviembre y finalizará el 9 de diciembre, tiempo durante el cual se realizarán las actividades relacionadas con el entendimiento del negocio, de los datos, preprocesamiento de los datos, modelado, comparación de modelos y despliegue. En la siguiente figura se puede visualizar el cronograma y el diagrama de gantt del proyecto. 
+
 ![image](https://user-images.githubusercontent.com/99290509/204110831-ec4bf104-4353-4799-91dd-f3b3bd367b6a.png)
 
 
