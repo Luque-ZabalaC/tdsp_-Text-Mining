@@ -115,12 +115,14 @@ También haremos uso de las siguientes técnicas de machine learning y deep lear
 - Deep Learning Technique: Multi-layered Perceptrons, Convolution Neural Networks, LSTM, Underfitting, Overfitting, Probability, Text Processing, Python syntax and data structures, Keras library, etc.
 
 * How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
+
+La arquitectura propuesta consiste en el uso de herramientas de analítica de datos que a partir de los datos suministrados por el cliente, emplean diferentes técnicas que permiten generar información de valor al cliente. 
+
+![image](https://user-images.githubusercontent.com/99290509/204114207-d3b1d2ab-1221-4392-a06c-e77b72e4ce3e.png)
+
   * How will the customer use the model results to make decisions
-  * Data movement pipeline in production
-  * Make a 1 slide diagram showing the end to end data flow and decision architecture
-    * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
- 
-![image](https://user-images.githubusercontent.com/99290509/204114161-ba2c052d-d09d-42b4-8faf-3281af9e94e3.png)
+
+A partir de la información contenida en la base de datos se aplicarán diferentes técnicas de ciencia de datos para analizar la información y generar tableros con gráficas y reportes que permitan al cliente (multinacional) contar con información ágil y precisa para la toma de decisiones. Se generarán modelos de predicción de valoración de los productos, lo cual será una herramienta fundamental para establecer estrategias de marketing. 
 
 
 ## Communication
