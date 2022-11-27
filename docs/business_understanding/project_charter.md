@@ -120,10 +120,12 @@ También haremos uso de las siguientes técnicas de machine learning y deep lear
   * Make a 1 slide diagram showing the end to end data flow and decision architecture
     * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
  
- FALTA
+![image](https://user-images.githubusercontent.com/99290509/204114161-ba2c052d-d09d-42b4-8faf-3281af9e94e3.png)
+
 
 ## Communication
 * How will we keep in touch? Weekly meetings?
+
 La comunicación será fluida y constante entre el equipo de trabajo, se usarán la metodología ágil Scrum como base para el desarrollo del proyecto. Se definirán sprint para que los miembros del proyecto se reunan cada semana y analicen los avances del proyecto, entregables, tiempo y presupuestos de ejecución, para resolver cualquier imprevisto sujeto a la ejecución del proyecto. Adicionalmente se contará con un tablero en trello que cuente con listas "Por hacer", "En progreso" y "Hecho" donde se registrarán las actividades con su respectivo responsable y fechas límite no solo para realizar seguimiento al proyecto, si no para registrar todas aquellas dudas o sugerencias que puedan mejorar la comunicación del equipo de trabajo. 
 	
 
