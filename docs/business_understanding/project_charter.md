@@ -46,7 +46,7 @@ El servicio va ser consumido por el cliente a través de un dashboard diseñado 
 		Carolina Luque
 		* Account manager
 		
-		Maira alejandra Garcia 
+		Maira Alejandra Garcia 
 		
 		
 	* Client: Multinacional 
@@ -128,3 +128,8 @@ La comunicación será fluida y constante entre el equipo de trabajo, se usarán
 	
 
 * Who are the contact persons on both sides?
+
+Equipo del proyecto:
+
+Carolina Luque
+Maira García
