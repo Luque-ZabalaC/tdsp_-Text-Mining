@@ -106,8 +106,6 @@ El conjunto de datos se almacena en google drive. Luego se descarga y descomprim
 Utilizamos Google Drive como entorno para el almacenamiento de datos de la fuente primaria. El almacenamiento de los datos requiere un espacio de 46.2MB. Además, utilizaremos Github para guardar archivos que se generen en el desarollo de la solución. 
 Para el análisis de los datos usamos Python en el ambiente colaborativo de Google (Google Colab). En este entorno de ejecución disponemos de 12.68 GB de RAM, 78.19 GB de Disco y la GPU NVIDIA T4 con la versión del Driver 460.32.03 y CUDA 11.2 respectivamente. El entorno de GPU es recomendable para la eficiencia computacional en la fase de modelamiento.
 
-DEMOS COLOCAR PANTALLAZOS, REVISAR ULTIMOS MINUTOS DE LA ÚLTIMA CLASE: Está ok está?
-
 ![image](https://user-images.githubusercontent.com/99290509/204112575-2fa8e48c-1e32-41ed-8061-43d11ebde394.png)
 
 También haremos uso de las siguientes técnicas de machine learning y deep learning: 
