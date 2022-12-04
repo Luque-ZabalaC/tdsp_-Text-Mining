@@ -6,8 +6,12 @@ El conjunto de datos tiene información de 100k de pedidos de 2016 a 2018 realiz
 
 Para la exploración de los datos se requiere la instalación de las siguientes librerías
 
+  $ python3
+    Python 3.6.1 (...)
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>>
+    
 {% filename %}command-line{% endfilename %}
-
 !apt-get install libgeos-dev
 !pip install pyproj==1.9.6
 !pip install fasttext
