@@ -173,17 +173,28 @@ Al visualizar nuevamente el mapa, se observa que ahora solo se tienen los puntos
 
 ![image](https://user-images.githubusercontent.com/99290509/205499905-9496f8a8-94d6-424e-b5b0-72c6c454c8f1.png)
 
+## Exploración de los datos
+
+Explorando las reseñas de la base de datos, el 76.68% corresponden a reseñas positivas. 
+
+![image](https://user-images.githubusercontent.com/99290509/205500016-b7137812-91ef-4fee-8b63-6f3bcba90063.png)
+
+En la siguiente imagen se visualizan el top de productos más vendidos.
+
+![image](https://user-images.githubusercontent.com/99290509/205500089-348a879d-274a-4854-9f3f-3f945753869e.png)
+
+Los principales medios de pago usados por los compradores son:
+
+![image](https://user-images.githubusercontent.com/99290509/205500142-780a9062-45c7-4197-9a07-e07d8de18195.png)
 
 
 
-```python
-```
 
 ## Variable Objetivo
 
 ## Variables individuales
 
-## Claseificación de las variables
+## Clasificación de las variables
 
 ## Relación entre las variables explicativas y la variable objetivo
 
