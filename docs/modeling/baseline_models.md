@@ -61,12 +61,10 @@ El modelo permite ingresar un comentario y determinar el porcentaje de positivid
 ![image](https://user-images.githubusercontent.com/81445104/207148508-1f0b0b26-57d7-44fe-af19-4be490fd6858.png)
 
 
-## Conclusion and Discussions for Next Steps
+## Conclusión y discusión
 
-* Conclusion on Feasibility Assessment of the Machine Learning Task
+* El modelo Naive Bayes muestra una mejor precisión frente al modelo de regresión logistica. Las demás métricas muestran un mejor desempeño para el modelo de regresión logística.
 
-* Discussion on Overfitting (If Applicable)
+* En estudios futuros se podría plantear un modelo con una variable respuesta que contemple más categorías.
 
-* What other Features Can Be Generated from the Current Data
-
-* What other Relevant Data Sources Are Available to Help the Modeling
+* Sería de utilidad incorporar un análisis por región y considerando otras covariabls de los usuarios. Por ejemplo, ingresos.
