@@ -25,12 +25,12 @@ El **archive.zip** contine los siguientes conjuntos de datos:
 * **olist_sellers_dataset**: contiene información relacionada con los vendedores registrados con la firma.
 
 ## Processed Data
-| **Conjunto de datos** | **Ubicación original**   | **Herramientas procesamiento/Scripts** | **Enlace** |
+| **Conjunto de datos** | **Ubicación**   | **Herramientas procesamiento/Scripts** | **Enlace** |
 | ---:| ---: | ---: | ---: | 
-| Processed Dataset 1 | [Corpus final](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/scripts/preprocessing/text_prep.csv), [Dataset2](link/to/dataset2/report) | [Python_Script1.py](link/to/python/script/file/in/Code) | [Processed Dataset 1 Report](link/to/report1)|
-| Processed Dataset 2 | [Dataset2](link/to/dataset2/report) |[script2.R](link/to/R/script/file/in/Code) | [Processed Dataset 2 Report](link/to/report2)|
-* Processed Data1 summary. <Provide brief summary of the processed data, such as why you want to process data in this way. More detailed information about the processed data should be in the Processed Data1 Report.>
-* Processed Data2 summary. <Provide brief summary of the processed data, such as why you want to process data in this way. More detailed information about the processed data should be in the Processed Data2 Report.> 
+| text_prep.csv | [Corpus final](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/scripts/preprocessing/text_prep.csv) | [prep_y_extrac.ipynb](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/scripts/preprocessing/prep_y_extrac.ipynb) | [Reporte](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/tree/master/scripts/preprocessing)|
+
+* **text_prep.csv**. <Contiene los comentarios originales, los comentarios preprocesados y la puntuación de cada uno. Este es el insumo para la extracción de las características>
+
 
 ## Feature Sets
 
