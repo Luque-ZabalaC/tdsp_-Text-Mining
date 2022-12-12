@@ -25,7 +25,7 @@ El **archive.zip** contine los siguientes conjuntos de datos:
 * **olist_sellers_dataset**: contiene información relacionada con los vendedores registrados con la firma.
 
 ## Processed Data
-| Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
+| **Conjunto de datos** | **Ubicación original**   | **Herramientas procesamiento/Scripts** | **Enlace** |
 | ---:| ---: | ---: | ---: | 
 | Processed Dataset 1 | [Dataset1](link/to/dataset1/report), [Dataset2](link/to/dataset2/report) | [Python_Script1.py](link/to/python/script/file/in/Code) | [Processed Dataset 1 Report](link/to/report1)|
 | Processed Dataset 2 | [Dataset2](link/to/dataset2/report) |[script2.R](link/to/R/script/file/in/Code) | [Processed Dataset 2 Report](link/to/report2)|
