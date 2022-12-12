@@ -1,25 +1,28 @@
-# Baseline Model Report
+# Informe del modelo de referencia
 
-_Baseline model is the the model a data scientist would train and evaluate quickly after he/she has the first (preliminary) feature set ready for the machine learning modeling. Through building the baseline model, the data scientist can have a quick assessment of the feasibility of the machine learning task._
-
-> If using the Automated Modeling and Reporting tool, most of the sections below will be generated automatically from this tool. 
+Para la clasificación y análisis de sentimientos de los usiarios utilizamos dos modelos: modelo de regresión logística y Naive Bayes. 
 
 ## Analytic Approach
-* What is target definition
-* What are inputs (description)
-* What kind of model was built?
+* ¿Cuál es la etiqueta objetivo?
+La variable objetivo es la naturaleza del comentario. La etiqueta es 1 si el comentario es positivo y 0 en otro caso.
 
-## Model Description
+* ¿Cuáles son las entradas?
+La entrada del modelo es la matriz TF-IDF, generada a patir de la matriz de términos documento del corpus preprocesado. 
 
-* Models and Parameters
+* ¿Qué tipo de modelo se construyo?
+Se contruyo un modelo de clasificación.
 
-	* Description or images of data flow graph
-  		* if AzureML, link to:
-    		* Training experiment
-    		* Scoring workflow
-	* What learner(s) were used?
-	* Learner hyper-parameters
+## Descripción del modelo
 
+* Modelos y parámetros.
+A continuación se muestra la estructura de los modelos 
+
+
+<div>
+<p style = 'text-align:center;'>
+<img src="https://pbs.twimg.com/media/EiAAHfoU4AADis4?format=jpg&name=small" alt="JuveYell" width="300px">
+</p>
+</div>
 
 ## Results (Model Performance)
 * ROC/Lift charts, AUC, R^2, MAPE as appropriate
