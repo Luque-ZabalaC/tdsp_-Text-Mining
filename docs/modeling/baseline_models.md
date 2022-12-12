@@ -4,23 +4,27 @@ Para la clasificación y análisis de sentimientos de los usiarios utilizamos do
 
 ## Analytic Approach
 * ¿Cuál es la etiqueta objetivo?
+
 La variable objetivo es la naturaleza del comentario. La etiqueta es 1 si el comentario es positivo y 0 en otro caso.
 
 * ¿Cuáles son las entradas?
+
 La entrada del modelo es la matriz TF-IDF, generada a patir de la matriz de términos documento del corpus preprocesado. 
 
 * ¿Qué tipo de modelo se construyo?
+
 Se contruyo un modelo de clasificación.
 
 ## Descripción del modelo
 
 * Modelos y parámetros.
+
 A continuación se muestra la estructura de los modelos 
 
 
 <div>
 <p style = 'text-align:center;'>
-<img src="https://pbs.twimg.com/media/EiAAHfoU4AADis4?format=jpg&name=small" alt="JuveYell" width="300px">
+<img src="https://drive.google.com/drive/folders/1hlzHMgOjOVeQmOcfWfxo0vZamdfwz_Xb" alt="JuveYell" width="300px">
 </p>
 </div>
 
