@@ -1,11 +1,5 @@
-# Team Data Science Project Template
+# Proyecto de clasificación de sentimientos de reseñas de Clientes (Ecommerce Olist)
 
-This template is an implementation of the Microsoft's Team Data Science Project Template.
+Este proyecto se ha realizado para aplicar los conceptos vistos en el Programa de Formación en Machine Learning and Data Science específicamente en el módulo  Metodologías Ágiles para el Desarrollo de Aplicaciones con Machine Learning. 
 
-You'll need tools like `poetry` (default), `venv`, `pyenv` (default), `renv`, `conda`, among others for dependency management and resolution.
 
-This template provides the following folders:
-
-* `packagename`: put the source code (classes and functions) in this folder.
-* `docs`: put the documentation in this folder.
-* `scripts`: this folder must contain the scripts/notebooks that will be executed.
