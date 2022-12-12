@@ -192,9 +192,16 @@ Los principales medios de pago usados por los compradores son:
 
 ## Variable Objetivo
 
+La variable objetivo es la etiqueta del comentario. Si el comentario es positivo la etiqueta es 1 y si es negativo es 0.
+
 ## Variables individuales
+
+La variable explicativa es el comentario que deja el cliente una vez recibe el producto.
 
 ## Clasificación de las variables
 
+La variable objetivo es categorica en escala nominal y la variable explicativa es string.
+
 ## Relación entre las variables explicativas y la variable objetivo
 
+Se busca determinar a partir de los comentarios el tipo de sentimiento que ha generado el servicio en el usuario.
