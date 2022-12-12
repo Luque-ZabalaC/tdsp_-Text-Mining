@@ -21,12 +21,28 @@ Se contruyo un modelo de clasificación.
 
 A continuación se muestra la estructura de los modelos 
 
+```python
+# Logistic Regression hyperparameters
+logreg_param_grid = {
+    'C': np.linspace(0.1, 10, 20),
+    'penalty': ['l1', 'l2'],
+    'class_weight': ['balanced', None],
+    'random_state': [42],
+    'solver': ['liblinear']
+}
 
-<div>
-<p style = 'text-align:center;'>
-<img src="https://drive.google.com/drive/folders/1hlzHMgOjOVeQmOcfWfxo0vZamdfwz_Xb" alt="JuveYell" width="300px">
-</p>
-</div>
+# Setting up the classifiers
+set_classifiers = {
+    'LogisticRegression': {
+        'model': LogisticRegression(),
+        'params': logreg_param_grid
+    },
+    'Naive Bayes': {
+        'model': GaussianNB(),
+        'params': {}
+    }
+}
+```
 
 ## Results (Model Performance)
 * ROC/Lift charts, AUC, R^2, MAPE as appropriate
