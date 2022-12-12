@@ -1,4 +1,4 @@
-# Data and Feature Definitions
+# Definición de datos y características.
 
 ## Datos públicos de comercio electrónico brasileño por Olist.
 
@@ -34,10 +34,8 @@ El **archive.zip** contine los siguientes conjuntos de datos:
 
 ## Feature Sets
 
-| Feature Set Name | Input Dataset(s)   | Feature Engineering Tools/Scripts | Link to Report |
+| **Conjunto de datos** | **Ubicación**   | **Herramientas ingeniería características/Scripts** | **Enlace** |
 | ---:| ---: | ---: | ---: | 
-| Feature Set 1 | [Dataset1](link/to/dataset1/report), [Processed Dataset2](link/to/dataset2/report) | [R_Script2.R](link/to/R/script/file/in/Code) | [Feature Set1 Report](link/to/report1)|
-| Feature Set 2 | [Processed Dataset2](link/to/dataset2/report) |[SQL_Script2.sql](link/to/sql/script/file/in/Code) | [Feature Set2 Report](link/to/report2)|
+| train.zip, test.zip | [train](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/scripts/preprocessing/train.zip), [test](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/scripts/preprocessing/test.zip) | [prep_y_extrac.ipynb](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/scripts/preprocessing/prep_y_extrac.ipynb) | [Reporte](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/tree/master/scripts/preprocessing)|
 
-* Feature Set1 summary. <Provide detailed description of the feature set, such as the meaning of each feature. More detailed information about the feature set should be in the Feature Set1 Report.>
-* Feature Set2 summary. <Provide detailed description of the feature set, such as the meaning of each feature. More detailed information about the feature set should be in the Feature Set2 Report.> 
+* **train.zip y test.zip**: contiene los conjunto de entrenamiento y prueba. Estos se generan luego de la extracción de las características del conjunto de datos. Se determinó la matriz de términos-documento y la estadística TF-IDF. También se etiquetaron los comentarios a partir de las puntuaciones.
