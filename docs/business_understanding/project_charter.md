@@ -134,4 +134,5 @@ La comunicación será fluida y constante entre el equipo de trabajo, se usarán
 Equipo del proyecto:
 
 Carolina Luque
+
 Maira García
