@@ -2,7 +2,7 @@
 
 Para la clasificación y análisis de sentimientos de los usiarios utilizamos dos modelos: modelo de regresión logística y Naive Bayes. 
 
-## Analytic Approach
+## Enfoque analítico
 * ¿Cuál es la etiqueta objetivo?
 
 La variable objetivo es la naturaleza del comentario. La etiqueta es 1 si el comentario es positivo y 0 en otro caso.
@@ -44,9 +44,9 @@ set_classifiers = {
 }
 ```
 
-## Results (Model Performance)
-* ROC/Lift charts, AUC, R^2, MAPE as appropriate
-* Performance graphs for parameters sweeps if applicable
+## Resultados y desempeño del modelo
+
+
 
 ## Model Understanding
 
