@@ -16,8 +16,8 @@ La entrada del modelo es la matriz TF-IDF, generada a patir de la matriz de tér
 Se contruyo un modelo de clasificación.
 
 ## Descripción de la solución
-* Simple solution architecture (Data sources, solution components, data flow)
-* What is output?
+
+Proponemos dos modelos de clasificación: regresión logistica y Naive Bayes.
 
 ## Data
 
