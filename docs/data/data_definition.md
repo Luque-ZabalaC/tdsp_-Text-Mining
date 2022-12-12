@@ -24,7 +24,7 @@ El **archive.zip** contine los siguientes conjuntos de datos:
 * **olist_geolocation_dataset**: contiene información geográfica de los vendedores y los clientes.
 * **olist_sellers_dataset**: contiene información relacionada con los vendedores registrados con la firma.
 
-## Processed Data
+## Datos procesados
 | **Conjunto de datos** | **Ubicación**   | **Herramientas procesamiento/Scripts** | **Enlace** |
 | ---:| ---: | ---: | ---: | 
 | text_prep.csv | [Corpus final](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/scripts/preprocessing/text_prep.csv) | [prep_y_extrac.ipynb](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/scripts/preprocessing/prep_y_extrac.ipynb) | [Reporte](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/tree/master/scripts/preprocessing)|
@@ -32,7 +32,7 @@ El **archive.zip** contine los siguientes conjuntos de datos:
 * **text_prep.csv**: contiene los comentarios originales, los comentarios preprocesados y la puntuación de cada uno. Este es el insumo para la extracción de las características.
 
 
-## Feature Sets
+## Conjuntos de características
 
 | **Conjunto de datos** | **Ubicación**   | **Herramientas ingeniería características/Scripts** | **Enlace** |
 | ---:| ---: | ---: | ---: | 
