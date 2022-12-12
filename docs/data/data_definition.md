@@ -29,7 +29,7 @@ El **archive.zip** contine los siguientes conjuntos de datos:
 | ---:| ---: | ---: | ---: | 
 | text_prep.csv | [Corpus final](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/scripts/preprocessing/text_prep.csv) | [prep_y_extrac.ipynb](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/scripts/preprocessing/prep_y_extrac.ipynb) | [Reporte](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/tree/master/scripts/preprocessing)|
 
-* **text_prep.csv**. <Contiene los comentarios originales, los comentarios preprocesados y la puntuación de cada uno. Este es el insumo para la extracción de las características>
+* **text_prep.csv**: contiene los comentarios originales, los comentarios preprocesados y la puntuación de cada uno. Este es el insumo para la extracción de las características.
 
 
 ## Feature Sets
