@@ -51,11 +51,15 @@ set_classifiers = {
 ![image](https://user-images.githubusercontent.com/81445104/207119741-406e424d-e799-4def-86ad-6ddd9040398d.png)
 
 
-## Model Understanding
+## Entendimiento del modelo
 
-* Variable Importance (significance)
+El modelo permite ingresar un comentario y determinar el porcentaje de positividad o negatividad del mismo.
 
-* Insight Derived from the Model
+![image](https://user-images.githubusercontent.com/81445104/207148459-440f9247-fe37-498d-aec6-16de28c567e9.png)
+
+
+![image](https://user-images.githubusercontent.com/81445104/207148508-1f0b0b26-57d7-44fe-af19-4be490fd6858.png)
+
 
 ## Conclusion and Discussions for Next Steps
 
