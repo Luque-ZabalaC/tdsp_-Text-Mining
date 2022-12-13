@@ -25,6 +25,8 @@ Para más detalles a cerca de los datos ver  [data](https://github.com/Luque-Zab
 
 ## Extracción de características 
 
+La extracción de características se realizó haciendo uso del siguiente código implementado en Python. 
+
 ```python
 def extract_features_from_corpus(corpus, vectorizer, df=False):
     """
@@ -66,6 +68,8 @@ df_tfidf_features.head()
 
 
 ## Algoritmo
+
+
 ```python
 # Logistic Regression hyperparameters
 logreg_param_grid = {
@@ -90,6 +94,8 @@ set_classifiers = {
 ```
 
 ## Resultados
+
+Los resultados del desempeño de los modelos se pueden visualizar en la siguiente gráfica. 
 
 ![image](https://user-images.githubusercontent.com/81445104/207159970-d84d81db-df87-470b-8934-591bbba895fd.png)
 
