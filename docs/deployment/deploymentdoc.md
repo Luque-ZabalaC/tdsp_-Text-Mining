@@ -29,8 +29,8 @@ Los principales pasos requeridos para realizar el despliegue son:
 ![image](https://user-images.githubusercontent.com/99290509/207203430-b5283da4-8fa2-4ef0-8881-3fcfd9910644.png)
 
 6. Al copiar la dirección del servidor local en un navegador, podemos observar que el servicio se está ejecutando. 
-
 ![image](https://user-images.githubusercontent.com/99290509/207203448-2f553c86-e195-47df-9025-cd7d9381822d.png)
+
 7. Los datos de entrada y las peticiones a la API se realizan haciendo uso de Postman. 
 
 Las siguientes tres imágenes permiten visualizar tres reseñas y la respectiva clasificación realizadas por la API. El primer caso corresponde a una clasificación negativa con un alto porcentaje de probabilidad en esa clasificación. La segunda reseña analizada arroja una clasificación positiva con un porcentaje de probabilidad mucho mayor que la última imagen. 
