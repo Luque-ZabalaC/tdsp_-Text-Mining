@@ -1,8 +1,10 @@
 # Deployment
 
-In this folder you can add deployment documentation, including
 
-* Documentation for the APIs (e.g. swagger).
+
+El despliegue del proyecto se realizó mediante una API que usa Flask para generar el servicio web. La API carga el modelo entrenado (pkl). 
+
+![image](https://user-images.githubusercontent.com/99290509/207456036-5e04c97d-e128-4523-9175-46af0f654209.png)
 
 
 ![image](https://user-images.githubusercontent.com/99290509/207203430-b5283da4-8fa2-4ef0-8881-3fcfd9910644.png)
@@ -18,6 +20,3 @@ In this folder you can add deployment documentation, including
 
 
 
-* Package documentation (e.g. sphinx).
-* Dashboard documentation.
-* Any other documentation depending on the deployment kind.
