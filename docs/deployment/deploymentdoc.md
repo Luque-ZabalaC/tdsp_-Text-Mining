@@ -1,29 +1,34 @@
 # Deployment
 
 
-
 ## **Descripción**
 
-El despliegue del proyecto se realizó mediante una API que usa Flask para generar el servicio web. La [API](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/API.py) carga el modelo entrenado (pkl). En la siguiente figura se puede visualizar la parte inicial del código. 
+El despliegue del proyecto se realizó mediante una [API](https://github.com/Luque-ZabalaC/tdsp_E-Commerce/blob/master/API.py) que usa Flask para generar el servicio web. La API carga el modelo entrenado (archivo pkl). 
+
+En la siguiente figura se puede visualizar la parte inicial del código. La API incluye el código requerido para que a partir de los datos de entrada ingresados por el usuario y el modelo entrenado, realizar la clasificación de sentimientos y determinar el porcentaje de probabilidad asociado a la clasificación. 
 
 ![image](https://user-images.githubusercontent.com/99290509/207456036-5e04c97d-e128-4523-9175-46af0f654209.png)
 
-
-
-La API permite al usuario ingresar una reseña la cuál es analizada y clasificada usando técnicas de analítica de datos de sentimientos. Para 
+Como datos de entrada, la API recibe la reseña que el cliente realiza al producto. La reseña debe estar en idioma portugues, ya que el modelo está entrenado para este idioma. 
 
 ![image](https://user-images.githubusercontent.com/99290509/207458630-d15cae04-a8b8-44a4-9c44-2505cd252a70.png)
 
 
-
-
 ## **Despliegue de la API**
 
-Para realizar el despliegue fue necesario realizar los siguientes pasos.
+La API se desplegó usando un servidor local, a través de la interfaz gráfica de la plataforma Postman se realizó un request POST al servidor local, ingresando el texto que se desea analizar que en este caso es la reseña del cliente.  
 
-La API se desplegó usando un servidor local, a través de la interfaz gráfica de la plataforma Postman se realizó un request POST al servidor local, ingresando el texto que se desea analizar que en este caso es la reseña del cliente.  La reseña debe estar en idioma portugues, ya que el modelo está entrenado para este idioma. 
+Los principales pasos requeridos para realizar el despliegue son:
+
+1. Crear el servicio web a través de la API usando Flask
+2. Crear el entorno virtual de Flask py -m venv env
+3. Activar el entorno virtual env\Scripts\activate
+4. Realizar la instalación de las librerías requeridas para el despliegue de la API
+5. Ejecutar la API flask run
 
 ![image](https://user-images.githubusercontent.com/99290509/207203430-b5283da4-8fa2-4ef0-8881-3fcfd9910644.png)
+
+6. xxxxx
 
 ![image](https://user-images.githubusercontent.com/99290509/207203448-2f553c86-e195-47df-9025-cd7d9381822d.png)
 
