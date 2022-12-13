@@ -12,6 +12,7 @@ In this folder you can add deployment documentation, including
 
 ![image](https://user-images.githubusercontent.com/99290509/207203355-5c8ada12-ae04-462c-8786-d0a733470e32.png)
 
+![image](https://user-images.githubusercontent.com/99290509/207203825-2de0dfc2-9581-4918-b0e3-3d0f2f9f6064.png)
 
 
 * Package documentation (e.g. sphinx).
