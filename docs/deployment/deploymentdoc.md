@@ -12,7 +12,7 @@ El despliegue del proyecto se realizó mediante una API que usa Flask para gener
 
 La API permite al usuario ingresar una reseña la cuál es analizada y clasificada usando técnicas de analítica de datos de sentimientos. Para 
 
-![image](https://user-images.githubusercontent.com/99290509/207458379-a45a81d9-2e93-4fcd-9ec1-eaec3bb41450.png)
+![image](https://user-images.githubusercontent.com/99290509/207458630-d15cae04-a8b8-44a4-9c44-2505cd252a70.png)
 
 
 
