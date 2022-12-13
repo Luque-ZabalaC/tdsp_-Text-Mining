@@ -20,7 +20,7 @@ Somos una empresa consultora que ha sido contratada por esta multinacional para 
 ## Scope
 * What data science solutions are we trying to build?
 
-Buscamos aplicar técnicas de visualización de datos, métodos de agrupamiento y procesamiento de lenguaje natural para hacer una caracterización amplia del comportamiento de compra en línea de los brasileños, con el objetivo de generar estrategias de marketing focalizadas en las preferencias del comprador. 
+Buscamos aplicar técnicas de visualización de datos, métodos de agrupamiento y procesamiento de lenguaje natural para determinar a partir de una reseña de un cliente clasificar si el comentario es positivo o negativo y el porcentaje de probababilidad asociado a dicho análisis de sentimiento. 
 
 * What will we do?
 
@@ -29,7 +29,7 @@ Vamos estructurar una metodología de ciencia de datos para desarrollar y ejecut
 
 * How is it going to be consumed by the customer?
 
-El servicio va ser consumido por el cliente a través de un dashboard diseñado en Colab.
+El servicio va ser consumido por el cliente a través de una API creada usando Flask, que podrá ser ejecutada a través de la plataforma Postman. Como datos de entrada el usuario podrá ingresar una reseña y como salida se podrá visualizar la clase (positiva o negativa) y la probabilidad de pertenecer a esta clase. 
 
 ## Personnel
 * Who are on this project:
@@ -62,15 +62,13 @@ El servicio va ser consumido por el cliente a través de un dashboard diseñado 
 
 * What are the qualitative objectives? (e.g. reduce user churn)
 
-Mejorar la percepción de los productos por parte de los clientes de la plataforma ecommerce a través de la caracterización del cliente y las revisiones que realizan a los productos. 
+Analizar la percepción de los productos por parte de los clientes de la plataforma ecommerce a través de la caracterización del cliente y las revisiones que realizan a los productos. 
 
 * What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
 
-Uno de los principales objetivos es la identificación de productos con críticas negativas y positivas para generar estrategias de marketing para estos productos. Dentro de la información de la base de datos cada producto tiene puntaciones de 1 a 5, lo cual permite realizar una clasificación binaria de esta característica y hacer el análisis requerido. 
+Uno de los principales objetivos es la identificación de productos con críticas negativas y positivas para generar estrategias de marketing para estos productos. Dentro de la información de la base de datos cada producto tiene puntaciones de 1 a 5, lo cual permite realizar una clasificación binaria de esta característica y hacer el análisis requerido, así como la información de las reseñas. 
 
-Se analizarán los comentarios realizados por los revisores y se implementarán modelos empleando diferentes técnicas de machine learning y deep learning comparando el desempeño de cada uno de los modelos. 
-
-Adicionalmente se realizará un análisis de ventas anual para identificar el crecimiento de venta de los productos y los medios de pago utilizados por los clientes. 
+Se analizarán los comentarios realizados por los clientes y se implementarán modelos empleando diferentes técnicas de machine learning y deep learning comparando el desempeño de cada uno de los modelos. 
 
 * Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
 
@@ -82,13 +80,12 @@ No se tiene información actual del tiempo que le toma a la multinacional en ana
 
 * How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
 
-El desempeño que tenga el modelo para realizar la predicción de la valoración del producto. 
-
+El desempeño que tenga el modelo para realizar el análisis de sentimiento a partir de la reseña dada por el cliente. 
 
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
 
-El proyecto iniciará el 2 de noviembre y finalizará el 9 de diciembre, tiempo durante el cual se realizarán las actividades relacionadas con el entendimiento del negocio, de los datos, preprocesamiento de los datos, modelado, comparación de modelos y despliegue. En la siguiente figura se puede visualizar el cronograma y el diagrama de gantt del proyecto. 
+El proyecto iniciará el 2 de noviembre y finalizará el 13 de diciembre, tiempo durante el cual se realizarán las actividades relacionadas con el entendimiento del negocio, de los datos, preprocesamiento de los datos, modelado, comparación de modelos y despliegue. En la siguiente figura se puede visualizar el cronograma y el diagrama de gantt del proyecto. 
 
 ![image](https://user-images.githubusercontent.com/99290509/204110831-ec4bf104-4353-4799-91dd-f3b3bd367b6a.png)
 
@@ -114,7 +111,7 @@ También haremos uso de las siguientes técnicas de machine learning y deep lear
 
 * How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
 
-La arquitectura propuesta consiste en el uso de herramientas de analítica de datos que a partir de los datos suministrados por el cliente, emplean diferentes técnicas que permiten generar información de valor al cliente. 
+La arquitectura propuesta consiste en el uso de herramientas de analítica de datos que a partir de los datos suministrados por el cliente, emplean diferentes técnicas que permiten generar información de valor al cliente.  Se usará Flask para realizar la API y postman para ejecutar el servicio web. 
 
 ![image](https://user-images.githubusercontent.com/99290509/204114207-d3b1d2ab-1221-4392-a06c-e77b72e4ce3e.png)
 
