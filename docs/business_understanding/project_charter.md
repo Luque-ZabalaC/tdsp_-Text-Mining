@@ -113,7 +113,7 @@ También haremos uso de las siguientes técnicas de machine learning y deep lear
 
 La arquitectura propuesta consiste en el uso de herramientas de analítica de datos que a partir de los datos suministrados por el cliente, emplean diferentes técnicas que permiten generar información de valor al cliente.  Se usará Flask para realizar la API y postman para ejecutar el servicio web. 
 
-![image](https://user-images.githubusercontent.com/99290509/204114207-d3b1d2ab-1221-4392-a06c-e77b72e4ce3e.png)
+![image](https://user-images.githubusercontent.com/99290509/207422604-6c971ba8-3d6e-4961-afbf-8b956cb74973.png)
 
   * How will the customer use the model results to make decisions
 
