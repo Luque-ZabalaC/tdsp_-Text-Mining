@@ -117,7 +117,7 @@ La arquitectura propuesta consiste en el uso de herramientas de analítica de da
 
   * How will the customer use the model results to make decisions
 
-A partir de la información contenida en la base de datos se aplicarán diferentes técnicas de ciencia de datos para analizar la información y generar tableros con gráficas y reportes que permitan al cliente (multinacional) contar con información ágil y precisa para la toma de decisiones. Se generarán modelos de predicción de valoración de los productos, lo cual será una herramienta fundamental para establecer estrategias de marketing. 
+A partir de la información contenida en la base de datos se aplicarán diferentes técnicas de ciencia de datos para analizar la información y generar gráficas y reportes que permitan al cliente (multinacional) contar con información ágil y precisa para la toma de decisiones. Se generarán modelos y se aplicarán técnicas de análisis de sentimientos para la clasificación de reseñas, lo cual será una herramienta fundamental para establecer estrategias de marketing. 
 
 
 ## Communication
